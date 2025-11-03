@@ -232,7 +232,15 @@ html body{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    transition: all 0.3s ease;
 }
+
+#textabout a:hover {
+    background-color: #fff;   /* Fill background on hover */
+    color: #000;              /* Swap text color */
+    border-color: #fff;       /* Keep border consistent */
+}
+
 
 #subscribe{
     background-color: black;
